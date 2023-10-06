@@ -7,10 +7,16 @@ import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 
-import {illustration, greeting} from "../../portfolio";
+import {illustration, greeting,isHireable} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
 
 export default function Greeting() {
+  var hireable = null
+  if (isHireable) {
+    hireable = "Yes";
+  } else {
+    hireable = "No";
+  }
   const {isDark} = useContext(StyleContext);
   if (!greeting.displayGreeting) {
     return null;
@@ -37,6 +43,11 @@ export default function Greeting() {
               >
                 {greeting.subTitle}
               </p>
+              <div className="opp-div">
+              <span className="desc-prof">
+                Open for opportunities: {hireable}
+              </span>
+            </div>
               <SocialMedia />
               <div className="button-greeting-div">
                 <Button text="Contact me" href="#contact" />

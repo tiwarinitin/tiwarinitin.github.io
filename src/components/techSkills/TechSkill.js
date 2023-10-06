@@ -1,13 +1,13 @@
 import React from "react";
-import "./SoftwareSkill.scss";
-import {skillsSection} from "../../portfolio";
+import "./TechSkill.scss";
+import {techStack} from "../../portfolio";
 
-export default function SoftwareSkill() {
+export default function TechSkill() {
   return (
     <div>
       <div className="software-skills-main-div">
         <ul className="dev-icons">
-          {skillsSection.softwareSkills.map((skills, i) => {
+          {techStack.techSkills.map((skills, i) => {
             const { Icon } = skills;
             return (
               <li

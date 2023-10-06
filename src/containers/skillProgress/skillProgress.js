@@ -1,8 +1,9 @@
 import React from "react";
 import "./Progress.scss";
 import {illustration, techStack} from "../../portfolio";
+import TechSkill from "../../components/techSkills/TechSkill"
 import {Fade} from "react-reveal";
-import Build from "../../assets/lottie/build";
+import codingPerson from "../../assets/lottie/codingPerson";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 
 export default function StackProgress() {
@@ -12,28 +13,20 @@ export default function StackProgress() {
         <div className="skills-container">
           <div className="skills-bar">
             <h1 className="skills-heading">Proficiency</h1>
-            {techStack.experience.map((exp, i) => {
-              const progressStyle = {
-                width: exp.progressPercentage
-              };
-              return (
-                <div key={i} className="skill">
-                  <p>{exp.Stack}</p>
-                  <div className="meter">
-                    <span style={progressStyle}></span>
-                  </div>
-                </div>
-              );
-            })}
+            <p>Throughout my IT journey, I was fortunate enough to came accross many technical skills and got opportunity to work on them. As a whole working on DevOps tools specially Kubernetes is my favorite.
+              <br />
+              <br />
+              Below are some mentioned tools and tech in which I have some hands-on experience:
+            </p>
+            <TechSkill />
           </div>
-
           <div className="skills-image">
             {illustration.animated ? (
-              <DisplayLottie animationData={Build} />
+              <DisplayLottie animationData={codingPerson} />
             ) : (
               <img
                 alt="Skills"
-                src={require("../../assets/images/skill.svg")}
+                src=""
               />
             )}
           </div>
