@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.86f6a87a.css",
+    "main.js": "/static/js/main.cb542747.js",
+    "static/css/769.b3cbb36b.chunk.css": "/static/css/769.b3cbb36b.chunk.css",
+    "static/js/769.0a47f1f8.chunk.js": "/static/js/769.0a47f1f8.chunk.js",
+    "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/terraform.png": "/static/media/terraform.42ef97c4a6a844ba48b9.png",
+    "static/media/CKAD.png": "/static/media/CKAD.69e9242eaad0b40977a3.png",
+    "static/media/microsoft.png": "/static/media/microsoft.926b6048e8bcb68dee6a.png",
+    "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/VSICS.png": "/static/media/VSICS.eb122a80fb8fd5398fe3.png",
+    "static/media/CKA.png": "/static/media/CKA.e197d90f7b09b7c0bee1.png",
+    "static/media/manOnTable.svg": "/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
+    "static/media/contactMailDark.svg": "/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
+    "static/media/developerActivity.svg": "/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
+    "index.html": "/index.html",
+    "main.86f6a87a.css.map": "/static/css/main.86f6a87a.css.map",
+    "main.cb542747.js.map": "/static/js/main.cb542747.js.map",
+    "769.b3cbb36b.chunk.css.map": "/static/css/769.b3cbb36b.chunk.css.map",
+    "769.0a47f1f8.chunk.js.map": "/static/js/769.0a47f1f8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.86f6a87a.css",
+    "static/js/main.cb542747.js"
+  ]
+}
