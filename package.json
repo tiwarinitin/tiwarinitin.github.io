@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d dist -r https://github.com/tiwarinitin/tiwarinitin.github.io.git",
     "lint": "oxlint",
     "preview": "vite preview"
   },
